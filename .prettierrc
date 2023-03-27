@@ -1,0 +1,14 @@
+{
+    "overrides": [
+        {
+            "files": "*",
+            "options": {
+                "printWidth": 95,
+                "tabWidth": 4,
+                "useTabs": false,
+                "singleQuote": false,
+                "bracketSpacing": false
+            }
+        }
+    ]
+}
