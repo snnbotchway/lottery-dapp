@@ -54,9 +54,7 @@ describe("Lottery Contract", (): void => {
 
         let transactionSucceeded: boolean = false;
         try {
-            await lottery.methods
-                .pickWinner()
-                .send({from: accounts[1], gas: 1_000_000});
+            await lottery.methods.pickWinner().send({from: accounts[1], gas: 1_000_000});
 
             transactionSucceeded = true;
         } catch (err) {
